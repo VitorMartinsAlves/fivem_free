@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "node": "^18.7.0"
+  },
+  "name": "base_unity_c_1.0",
+  "version": "1.0.0",
+  "description": "fivem server to run on heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorMartinsAlves/fivem_free.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorMartinsAlves/fivem_free/issues"
+  },
+  "homepage": "https://github.com/VitorMartinsAlves/fivem_free#readme"
+}
