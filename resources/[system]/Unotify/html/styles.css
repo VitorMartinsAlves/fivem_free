@@ -1,0 +1,139 @@
+body {
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.toast {
+    width: 100px;
+    float: right;
+}
+
+.wrapper {
+    width: 100px;
+    height: auto;
+    background-color: #1e1e1e;
+    float: none;
+}
+
+.main {
+    margin: 12px 16px 12px 56px;
+    position: relative;
+}
+
+.main::before {
+    font-size: 24px;
+    top: calc(50% - 12px);
+    left: -40px;
+    line-height: 24px;
+    position: absolute;
+}
+
+/* sucesso Notification*/
+
+.sucesso-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    color: #47cf73;
+}
+
+.sucesso {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.sucesso-border {
+    border-left: 4px solid #47cf73;
+}
+
+/* importante Notification*/
+
+.importante-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f05a";
+    color: #2f83ff;
+}
+
+.importante {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.importante-border {
+    border-left: 4px solid #2f83ff;
+}
+
+/* aviso Notification */
+
+.aviso-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f071";
+    color: #ffc107;
+}
+
+.aviso {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.aviso-border {
+    border-left: 4px solid #ffc107;
+}
+
+/* negado Notification */
+
+
+.negado-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f06a";
+    color: #dc3545;
+}
+
+.negado {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.negado-border {
+    border-left: 4px solid #dc3545;
+}
+
+/* SMS Notification */
+
+.phonemessage-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f7cd";
+    color: #f38847;
+}
+
+.phonemessage {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.phonemessage-border {
+    border-left: 4px solid #f38847;
+}
+
+/* Long Text Notification */
+
+.neutro-icon::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f11c";
+    color: #6c757d;
+}
+
+.neutro {
+    background-color: rgba(20, 20, 20, 0.85);
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+
+.neutro-border {
+    border-left: 4px solid #6c757d;
+}
